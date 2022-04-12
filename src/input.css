@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 .card {
-  @apply box-border rounded-3xl dark:bg-second-dark dark:border-card-border-dark border-[1px];
+  @apply box-border rounded-3xl bg-surface-light border-surface-border-light dark:bg-surface-dark dark:border-surface-border-dark border-[1px];
 }
 
 @layer base {
   html {
     font-family: "HK Grotesk", system-ui, sans-serif;
-    @apply text-text-light dark:text-text-dark;
+    @apply text-on-surface-light dark:text-on-surface-dark;
   }
 }
+.accessibility-button {
+  @apply rounded-2xl xl:rounded-3xl border-2 border-surface-light dark:border-surface-dark hover:bg-light-hover dark:hover:bg-dark-hover active:bg-light-active dark:active:bg-dark-active focus:border-on-light dark:focus:border-on-dark transition-colors;
+}
+/* .game-mode-button {
+  @apply;
+} */
