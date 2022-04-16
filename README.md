@@ -1,15 +1,24 @@
-# Szybka matematyka
+# quick-math-game
 
-## Road map:
+## Project setup
+```
+npm install
+```
 
-<p>
-[ ] Basic game mechanics using vue.js
-</p>
-[ ] Full mobile support using [design](<https://www.figma.com/file/pPGlrpQFmaCmel1KaXVxeX/speed-math-new-generation-(Copy)?node-id=0%3A1>)
-<p>
-[ ] Levels system<br>
-[ ] More levels<br>
-[ ] Profile system using node.js<br>
-[ ] Friends system using node.js<br>
-[ ] Coop gameplay using node.js<br>
-</p>
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

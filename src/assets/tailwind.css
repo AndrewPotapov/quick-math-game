@@ -5,7 +5,6 @@
 @layer base {
   html {
     font-family: "HK Grotesk", system-ui, sans-serif;
-    @apply text-on-surface-light dark:text-on-surface-dark;
   }
   h2 {
     @apply font-semibold text-2xl;
@@ -19,7 +18,7 @@
   @apply bg-light dark:bg-dark border-2 border-surface-border-light dark:border-surface-dark;
 }
 .accessibility-button {
-  @apply rounded-xl xl:rounded-3xl border-2 border-surface-light dark:border-surface-dark hover:bg-light-hover dark:hover:bg-dark-hover active:bg-light-active dark:active:bg-dark-active focus:border-on-light dark:focus:border-on-dark transition-colors;
+  @apply rounded-xl xl:rounded-3xl border-2 border-surface-border-light dark:border-surface-dark hover:bg-light-hover dark:hover:bg-dark-hover active:bg-light-active dark:active:bg-dark-active focus:border-on-light dark:focus:border-on-dark transition-colors;
 }
 .game-mode-button {
   @apply rounded-xl xl:rounded-2xl py-4 pl-6 text-left hover:bg-secondary-hover-light dark:hover:bg-secondary-hover-dark focus:border-on-light dark:focus:border-on-dark active:font-semibold active:text-on-secondary-light dark:active:text-on-secondary-dark active:bg-secondary-light dark:active:bg-secondary-active-dark;
